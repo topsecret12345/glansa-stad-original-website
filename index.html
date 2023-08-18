@@ -88,183 +88,191 @@
               <!-- städtjänster slutar -->
            
           <!-- prislistan -->
-          <div class="pricelist-container" id="pricelist">
-            
-            
+           <div class="pricelist" id="pricelist">
             <div class="pricelist-flex">
-            
-            
-                <div class="tabs-home">
-                  <input type="radio" id="tab2-home" name="tabs-home" checked>
-                  <label for="tab2-home">Standard</label>
-                  <!-- <input type="radio" id="tab1-home" name="tabs-home">
-                  <label for="tab1-home">Se Tillval</label> -->
-            
-                  <div class="tab-content-home">
-                    <div id="content1-home" class="tab-panel-home">
-                      <h2>Hemstäd</h2>
-                      <!-- <table>
-                        <tr>
-                          <th>Tjänst</th>
-                          <th>Pris/h</th>
-                        </tr>
-                        <tr>
-                        </tr>
-                        <tr>
-                          <td>2-sidigt fönster</td>
-                          <td>150 kr</td>
-                        </tr>
-                        <tr>
-                          <td>4-sidigt fönster</td>
-                          <td>200 kr</td>
-                        </tr>
-                        <tr>
-                          <td>6-sidigt fönster</td>
-                          <td>250 kr</td>
-                        </tr>
-                      </table> -->
-                    </div>
-                    <div id="content2-home" class="tab-panel-home">
-                      <h2>Hemstäd</h2>
-                      <table>
-                        <tr>
-                          <th>Tjänst</th>
-                          <th>Pris/h</th>
-                        </tr>
-                        <tr>
-                        </tr>
-                        <tr>
-                          <td>Hemstädning</td>
-                          <td>250 kr</td>
-                        </tr>
-                        <tr>
-                          <td>-</td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td>-</td>
-                          <td></td>
-                        </tr>
-                      </table>
-                    </div>
-                  </div>
+                <div class="pricelist_rut">
+                    <h2>Alla priser visar efter RUT</h2>
                 </div>
-                <div class="tabs">
-                  <input type="radio" id="tab2" name="tabs" checked>
-                  <label for="tab2">Standard</label>
-                  <input type="radio" id="tab1" name="tabs">
-                  <label for="tab1">Se Tillval</label>
-            
-                  <div class="tab-content">
-                    <div id="content1" class="tab-panel">
-                      <h2>Fönsterputs</h2>
-                      <table>
-                        <tr>
-                          <th>Tjänst</th>
-                          <th>Pris/st</th>
-                        </tr>
-                        <tr>
-                        </tr>
-                        <tr>
-                          <td>Spröjstvätt</td>
-                          <td>15 kr</td>
-                        </tr>
-                        <tr>
-                          <td>Karmtvätt</td>
-                          <td>15 kr</td>
-                        </tr>
-                        <tr>
-                          <td>Skruv</td>
-                          <td>15 kr</td>
-                        </tr>
-                      </table>
-                    </div>
-                    <div id="content2" class="tab-panel">
-                      <h2>Fönsterputs</h2>
-                      <table>
-                        <tr>
-                          <th>Tjänst</th>
-                          <th>Pris/st</th>
-                        </tr>
-                        <tr>
-                        </tr>
-                        <tr>
-                          <td>2-sidigt fönster</td>
-                          <td>40 kr</td>
-                        </tr>
-                        <tr>
-                          <td>4-sidigt fönster</td>
-                          <td>52 kr</td>
-                        </tr>
-                        <tr>
-                          <td>6-sidigt fönster</td>
-                          <td>65 kr</td>
-                        </tr>
-                      </table>
-                    </div>
-                  </div>
+                <div class="pricelist_main">    
+                    
+                      <div class="tabs">
+                        <input type="radio" id="tab2" name="tabs" checked>
+                        <label for="tab2">Standard</label>
+                        <input type="radio" id="tab1" name="tabs">
+                        <label for="tab1">Se Tillval</label>
+                  
+                        <div class="tab-content">
+                          <div id="content1" class="tab-panel">
+                            <h2>Fönsterputs</h2>
+                            <table>
+                              <tr>
+                                <th>Tjänst</th>
+                                <th>Pris/st</th>
+                              </tr>
+                              <tr>
+                              </tr>
+                              <tr>
+                                <td>Spröjstvätt</td>
+                                <td>15 kr</td>
+                              </tr>
+                              <tr>
+                                <td>Karmtvätt</td>
+                                <td>15 kr</td>
+                              </tr>
+                              <tr>
+                                <td>Skruv</td>
+                                <td>15 kr</td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div id="content2" class="tab-panel">
+                            <h2>Fönsterputs</h2>
+                            <table>
+                              <tr>
+                                <th>Tjänst</th>
+                                <th>Pris/st</th>
+                              </tr>
+                              <tr>
+                              </tr>
+                              <tr>
+                                <td>2-sidigt fönster</td>
+                                <td>40 kr</td>
+                              </tr>
+                              <tr>
+                                <td>4-sidigt fönster</td>
+                                <td>52 kr</td>
+                              </tr>
+                              <tr>
+                                <td>6-sidigt fönster</td>
+                                <td>65 kr</td>
+                              </tr>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tabs-home">
+                        <input type="radio" id="tab2-home" name="tabs-home" checked style="visibility: hidden;">
+                        <label for="tab2-home" style="visibility: hidden;">Standard</label>
+                        <!-- <input type="radio" id="tab1-home" name="tabs-home">
+                        <label for="tab1-home">Se Tillval</label> -->
+                  
+                        <div class="tab-content-home">
+                          <div id="content1-home" class="tab-panel-home">
+                            <h2>Hemstäd</h2>
+                            <!-- <table>
+                              <tr>
+                                <th>Tjänst</th>
+                                <th>Pris/h</th>
+                              </tr>
+                              <tr>
+                              </tr>
+                              <tr>
+                                <td>2-sidigt fönster</td>
+                                <td>150 kr</td>
+                              </tr>
+                              <tr>
+                                <td>4-sidigt fönster</td>
+                                <td>200 kr</td>
+                              </tr>
+                              <tr>
+                                <td>6-sidigt fönster</td>
+                                <td>250 kr</td>
+                              </tr>
+                            </table> -->
+                          </div>
+                          <div id="content2-home" class="tab-panel-home">
+                            <h2>Hemstäd</h2>
+                            <table style="display: flex; align-items: center; justify-content: center;">
+                              <!-- <tr>
+                                <th>Tjänst</th>
+                                <th>Pris/h</th>
+                              </tr>
+                              <tr>
+                              </tr>
+                              <tr>
+                                <td>Hemstädning</td>
+                                <td>250 kr</td>
+                              </tr>
+                              <tr>
+                                <td>-</td>
+                                <td></td>
+                              </tr>
+                              <tr>
+                                <td>-</td>
+                                <td></td>
+                              </tr> -->
+                              <br><br>                                           <!--provisoriskt-->   
+                              <p>Priset kan variera beroende på storleken på ditt hem.</p>
+    
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tabs-move">
+                        <input type="radio" id="tab2-move" name="tabs-move" checked>
+                        <label for="tab2-move">Standard</label>
+                        <input type="radio" id="tab1-move" name="tabs-move">
+                        <label for="tab1-move">Se Tillval</label>
+                  
+                        <div class="tab-content-move">
+                          <div id="content1-move" class="tab-panel-move">
+                            <h2>Flyttstäd</h2>
+                            <table>
+                              <tr>
+                                <th>Tjänst</th>
+                                <th>Pris</th>
+                              </tr>
+                              <tr>
+                              </tr>
+                              <tr>
+                                <td>Persienner</td>
+                                <td>150 kr</td>
+                              </tr>
+                              <tr>
+                                <td>Fönsterputs</td>
+                                <td>200 kr</td>
+                              </tr>
+                              <tr>
+                                <td>Ugn</td>
+                                <td>200kr</td>
+                              </tr>
+                            </table>
+                          </div>
+                          <div id="content2-move" class="tab-panel-move">
+                            <h2>Flyttstäd</h2>
+                            <table>
+                              <!-- <tr>
+                                <th>Tjänst</th>
+                                <th>Pris/kvm</th>
+                              </tr>
+                              <tr>
+                              </tr>
+                              <tr>
+                                <td>flyttstädning</td>
+                                <td>30 kr</td>
+                              </tr>
+                              <tr>
+                                <td>-</td>
+                                <td></td>
+                              </tr>
+                              <tr>
+                                <td>-</td>
+                                <td></td>
+                              </tr> -->
+                              <br><br>                                           <!--provisoriskt-->   
+                              <p>Priset kan variera beroende på storleken på ditt hem.</p>
+    
+                            </table>
+                          </div>
+                        </div>
+                      </div>
                 </div>
-                <div class="tabs-move">
-                  <input type="radio" id="tab2-move" name="tabs-move" checked>
-                  <label for="tab2-move">Standard</label>
-                  <input type="radio" id="tab1-move" name="tabs-move">
-                  <label for="tab1-move">Se Tillval</label>
-            
-                  <div class="tab-content-move">
-                    <div id="content1-move" class="tab-panel-move">
-                      <h2>Flyttstäd</h2>
-                      <table>
-                        <tr>
-                          <th>Tjänst</th>
-                          <th>Pris</th>
-                        </tr>
-                        <tr>
-                        </tr>
-                        <tr>
-                          <td>Persienner</td>
-                          <td>150 kr</td>
-                        </tr>
-                        <tr>
-                          <td>Fönsterputs</td>
-                          <td>200 kr</td>
-                        </tr>
-                        <tr>
-                          <td>Ugn</td>
-                          <td>200kr</td>
-                        </tr>
-                      </table>
-                    </div>
-                    <div id="content2-move" class="tab-panel-move">
-                      <h2>Flyttstäd</h2>
-                      <table>
-                        <tr>
-                          <th>Tjänst</th>
-                          <th>Pris/kvm</th>
-                        </tr>
-                        <tr>
-                        </tr>
-                        <tr>
-                          <td>Flyttstädning</td>
-                          <td>30 kr</td>
-                        </tr>
-                        <tr>
-                          <td>-</td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td>-</td>
-                          <td></td>
-                        </tr>
-                      </table>
-                    </div>
-                  </div>
+                <div class="pricelist_drive">
+                    <h3><b>Uppkörningsavgift:</b> 70 kr</h3>
+                    <small style="margin: 0 auto;">Uppkörningsavgiften är inte Rutberättigad.</small>
                 </div>
             </div>
-            <div class="pricelist-etcetera">
-              <p><b>Uppkörningsavgift:</b> 70 kr</p>
-            </div>
-         </div>
-
+        </div>
           
         
 
