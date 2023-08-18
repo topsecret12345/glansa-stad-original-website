@@ -444,189 +444,191 @@ a{
 /*tjänster slutar*/	
 
 /*Prislistan börjar*/
-
-table {
-	width: 100%;
-	border-collapse: collapse;
-	
-  }
-  
-  table th,
-  table td {
-	padding: 10px;
-	text-align: left;
-	border-bottom: 1px solid rgb(0, 0, 0);
-  }
-  .pricelist-container{
-	width: 100%;
-
-	
-  }
-  .pricelist-etcetera{
-
-	margin: auto auto auto auto;
-	background-color: black;
-	color: white;
-	width: fit-content;
-
-  }
-  .pricelist-etcetera p{
-	font-size: 18px;
-	font-weight: 400;
-	padding: 6px;
-  }
-
-  .pricelist-flex{
-	
-	min-height: 100vh;
+.pricelist{
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
-	position: relative;
+	/* background-color: blue; */
+	background-color: white;
+	min-height: 100vh;
+
+}
+.pricelist-flex{
+	display: flex;
+	flex-direction: column;
+
+	background-color: white;
+	/* background-color: white; */
+	padding: 20px 0;
+	width: 100%;
+
 	
-  }
-  
-  .pricelist-flex::after{
-	content: "Alla priser visar efter RUT";
-	position: absolute;
-	width: fit-content;
+}
+.pricelist_main{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	gap: 20px;
+	flex-wrap: wrap;
 
-	color: black;
+}
+.pricelist_rut{
+	text-align: center;
+	text-decoration: underline;
+}
+.pricelist_drive{
+	border: solid 1px black;
+	/* width: fit-content; */
+	align-self: center;
+	padding: 7px;
+	
+}
+table {
+width: 100%;
+border-collapse: collapse;
+}
 
-	outline: 1px black solid;
-	font-weight: 400;
-	top: 21px;
-	right: 0;
-	padding: 4px;
-  }
+table th,
+table td {
+padding: 10px;
+text-align: left;
+border-bottom: 1px solid rgb(0, 0, 0);
+}
+.tab-content, .tab-content-home, .tab-content-move{
+border: black 1px solid!important;
+background-color: whitesmoke;
+height: ;
+}
+.tab-content-home{
+/* height: 325px; */
+min-height: calc(282px - 40px);
+}
+.tab-content-move{
+/* height: 325px; */
+min-height: calc(282px - 40px);
+}
+.tabs {
+width: 400px;
+margin: 20px auto;
+}
 
-  
-  .tab-content, .tab-content-home, .tab-content-move{
-	border: black 1px solid!important;
-	background-color: whitesmoke;
-  }
-  .tabs {
-	width: 400px;
-	margin: 20px auto;
-  }
-  
-  .tabs input[type="radio"] {
-	display: none;
-  }
-  
-  .tabs label {
-	display: inline-block;
-	padding: 10px 20px;
-	background-color: #f0f0f0;
-	cursor: pointer;
-	transition: background-color 0.3s;
-  }
-  
-  .tabs label:hover {
-	background-color: #ccc;
-  }
-  
-  .tabs input[type="radio"]:checked + label {
-	background-color: #ccc;
-  }
-  
-  .tab-content {
-	padding: 20px;
-	border: 1px solid #ccc;
-  }
-  
-  .tab-panel {
-	display: none;
-  }
-  
-  #tab1:checked ~ .tab-content #content1,
-  #tab2:checked ~ .tab-content #content2 {
-	display: block;
-  }
-  
-  
-  
-  
-  .tabs-home {
-	width: 400px;
-	margin: 20px auto;
-  }
-  
-  .tabs-home input[type="radio"] {
-	display: none;
-  }
-  
-  .tabs-home label {
-	display: inline-block;
-	padding: 10px 20px;
-	background-color: #f0f0f0;
-	cursor: pointer;
-	transition: background-color 0.3s;
-  }
-  
-  .tabs-home label:hover {
-	background-color: #ccc;
-  }
-  
-  .tabs-home input[type="radio"]:checked + label {
-	background-color: #ccc;
-  }
-  
-  .tab-content-home {
-	padding: 20px;
-	border: 1px solid #ccc;
-  }
-  
-  .tab-panel-home {
-	display: none;
-  }
-  
-  #tab1-home:checked ~ .tab-content-home #content1-home,
-  #tab2-home:checked ~ .tab-content-home #content2-home {
-	display: block;
-  }
-  
-  
-  
-  .tabs-move {
-	width: 400px;
-	margin: 20px auto;
-  }
-  
-  .tabs-move input[type="radio"] {
-	display: none;
-  }
-  
-  .tabs-move label {
-	display: inline-block;
-	padding: 10px 20px;
-	background-color: #f0f0f0;
-	cursor: pointer;
-	transition: background-color 0.3s;
-  }
-  
-  .tabs-move label:hover {
-	background-color: #ccc;
-  }
-  
-  .tabs-move input[type="radio"]:checked + label {
-	background-color: #ccc;
-  }
-  
-  .tab-content-move {
-	padding: 20px;
-	border: 1px solid #ccc;
-  }
-  
-  .tab-panel-move {
-	display: none;
-  }
-  
-  #tab1-move:checked ~ .tab-content-move #content1-move,
-  #tab2-move:checked ~ .tab-content-move #content2-move {
-	display: block;
-  }
+.tabs input[type="radio"] {
+display: none;
+}
+
+.tabs label {
+display: inline-block;
+padding: 10px 20px;
+background-color: #f0f0f0;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+.tabs label:hover {
+background-color: #ccc;
+}
+
+.tabs input[type="radio"]:checked + label {
+background-color: #ccc;
+}
+
+.tab-content {
+padding: 20px;
+border: 1px solid #ccc;
+}
+
+.tab-panel {
+display: none;
+}
+
+#tab1:checked ~ .tab-content #content1,
+#tab2:checked ~ .tab-content #content2 {
+display: block;
+}
+
+
+
+
+.tabs-home {
+width: 400px;
+margin: 20px auto;
+}
+
+.tabs-home input[type="radio"] {
+display: none;
+}
+
+.tabs-home label {
+display: inline-block;
+padding: 10px 20px;
+background-color: #f0f0f0;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+.tabs-home label:hover {
+background-color: #ccc;
+}
+
+.tabs-home input[type="radio"]:checked + label {
+background-color: #ccc;
+}
+
+.tab-content-home {
+padding: 20px;
+border: 1px solid #ccc;
+}
+
+.tab-panel-home {
+display: none;
+}
+
+#tab1-home:checked ~ .tab-content-home #content1-home,
+#tab2-home:checked ~ .tab-content-home #content2-home {
+display: block;
+}
+
+
+
+.tabs-move {
+width: 400px;
+margin: 20px auto;
+}
+
+.tabs-move input[type="radio"] {
+display: none;
+}
+
+.tabs-move label {
+display: inline-block;
+padding: 10px 20px;
+background-color: #f0f0f0;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+.tabs-move label:hover {
+background-color: #ccc;
+}
+
+.tabs-move input[type="radio"]:checked + label {
+background-color: #ccc;
+}
+
+.tab-content-move {
+padding: 20px;
+border: 1px solid #ccc;
+}
+
+.tab-panel-move {
+display: none;
+}
+
+#tab1-move:checked ~ .tab-content-move #content1-move,
+#tab2-move:checked ~ .tab-content-move #content2-move {
+display: block;
+}
+
 /*Prislistan slutar*/
 
 /*kontakt börjar*/
