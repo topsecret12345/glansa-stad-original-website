@@ -501,11 +501,11 @@ height: ;
 }
 .tab-content-home{
 /* height: 325px; */
-min-height: calc(282px - 40px);
+/* min-height: calc(282px - 40px); */
 }
 .tab-content-move{
 /* height: 325px; */
-min-height: calc(282px - 40px);
+/* min-height: calc(282px - 40px); */
 }
 .tabs {
 width: 400px;
