@@ -444,190 +444,190 @@ a{
 /*tjänster slutar*/	
 
 /*Prislistan börjar*/
-.pricelist{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	/* background-color: blue; */
-	background-color: white;
-	min-height: 100vh;
+  .pricelist{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            /* background-color: white; */
+            min-height: 100vh;
 
-}
-.pricelist-flex{
-	display: flex;
-	flex-direction: column;
+        }
+        .pricelist-flex{
+            display: flex;
+            flex-direction: column;
 
-	background-color: white;
-	/* background-color: white; */
-	padding: 20px 0;
-	width: 100%;
+            background-color: white;
+            /* background-color: white; */
+            padding: 20px 0;
+            width: 100%;
 
-	
-}
-.pricelist_main{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	gap: 20px;
-	flex-wrap: wrap;
+            
+        }
+        .pricelist_main{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            gap: 20px;
+            flex-wrap: wrap;
 
-}
-.pricelist_rut{
-	text-align: center;
-	text-decoration: underline;
-}
-.pricelist_drive{
-	border: solid 1px black;
-	/* width: fit-content; */
-	align-self: center;
-	padding: 7px;
-	
-}
+        }
+        .pricelist_rut{
+            text-align: center;
+            text-decoration: underline;
+        }
+        .pricelist_drive{
+            border: solid 1px black;
+            width: fit-content;
+            align-self: center;
+            padding: 7px;
+            
+        }
 table {
-width: 100%;
-border-collapse: collapse;
+	width: 100%;
+	border-collapse: collapse;
 }
-
-table th,
-table td {
-padding: 10px;
-text-align: left;
-border-bottom: 1px solid rgb(0, 0, 0);
-}
-.tab-content, .tab-content-home, .tab-content-move{
-border: black 1px solid!important;
-background-color: whitesmoke;
-height: ;
-}
-.tab-content-home{
-/* height: 325px; */
-/* min-height: calc(282px - 40px); */
-}
-.tab-content-move{
-/* height: 325px; */
-/* min-height: calc(282px - 40px); */
-}
-.tabs {
-width: 400px;
-margin: 20px auto;
-}
-
-.tabs input[type="radio"] {
-display: none;
-}
-
-.tabs label {
-display: inline-block;
-padding: 10px 20px;
-background-color: #f0f0f0;
-cursor: pointer;
-transition: background-color 0.3s;
-}
-
-.tabs label:hover {
-background-color: #ccc;
-}
-
-.tabs input[type="radio"]:checked + label {
-background-color: #ccc;
-}
-
-.tab-content {
-padding: 20px;
-border: 1px solid #ccc;
-}
-
-.tab-panel {
-display: none;
-}
-
-#tab1:checked ~ .tab-content #content1,
-#tab2:checked ~ .tab-content #content2 {
-display: block;
-}
-
-
-
-
-.tabs-home {
-width: 400px;
-margin: 20px auto;
-}
-
-.tabs-home input[type="radio"] {
-display: none;
-}
-
-.tabs-home label {
-display: inline-block;
-padding: 10px 20px;
-background-color: #f0f0f0;
-cursor: pointer;
-transition: background-color 0.3s;
-}
-
-.tabs-home label:hover {
-background-color: #ccc;
-}
-
-.tabs-home input[type="radio"]:checked + label {
-background-color: #ccc;
-}
-
-.tab-content-home {
-padding: 20px;
-border: 1px solid #ccc;
-}
-
-.tab-panel-home {
-display: none;
-}
-
-#tab1-home:checked ~ .tab-content-home #content1-home,
-#tab2-home:checked ~ .tab-content-home #content2-home {
-display: block;
-}
-
-
-
-.tabs-move {
-width: 400px;
-margin: 20px auto;
-}
-
-.tabs-move input[type="radio"] {
-display: none;
-}
-
-.tabs-move label {
-display: inline-block;
-padding: 10px 20px;
-background-color: #f0f0f0;
-cursor: pointer;
-transition: background-color 0.3s;
-}
-
-.tabs-move label:hover {
-background-color: #ccc;
-}
-
-.tabs-move input[type="radio"]:checked + label {
-background-color: #ccc;
-}
-
-.tab-content-move {
-padding: 20px;
-border: 1px solid #ccc;
-}
-
-.tab-panel-move {
-display: none;
-}
-
-#tab1-move:checked ~ .tab-content-move #content1-move,
-#tab2-move:checked ~ .tab-content-move #content2-move {
-display: block;
-}
+  
+  table th,
+  table td {
+	padding: 10px;
+	text-align: left;
+	border-bottom: 1px solid rgb(0, 0, 0);
+  }
+  .tab-content, .tab-content-home, .tab-content-move{
+	border: black 1px solid!important;
+	background-color: whitesmoke;
+    height: ;
+  }
+  .tab-content-home{
+    /* height: 325px; */
+    /* min-height: calc(282px - 40px); */
+  }
+  .tab-content-move{
+    /* height: 325px; */
+    /* min-height: calc(282px - 40px); */
+  }
+  .tabs {
+	width: 400px;
+	margin: 20px auto;
+  }
+  
+  .tabs input[type="radio"] {
+	display: none;
+  }
+  
+  .tabs label {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #f0f0f0;
+	cursor: pointer;
+	transition: background-color 0.3s;
+  }
+  
+  .tabs label:hover {
+	background-color: #ccc;
+  }
+  
+  .tabs input[type="radio"]:checked + label {
+	background-color: #ccc;
+  }
+  
+  .tab-content {
+	padding: 20px;
+	border: 1px solid #ccc;
+  }
+  
+  .tab-panel {
+	display: none;
+  }
+  
+  #tab1:checked ~ .tab-content #content1,
+  #tab2:checked ~ .tab-content #content2 {
+	display: block;
+  }
+  
+  
+  
+  
+  .tabs-home {
+	width: 400px;
+	margin: 20px auto;
+  }
+  
+  .tabs-home input[type="radio"] {
+	display: none;
+  }
+  
+  .tabs-home label {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #f0f0f0;
+	cursor: pointer;
+	transition: background-color 0.3s;
+  }
+  
+  .tabs-home label:hover {
+	background-color: #ccc;
+  }
+  
+  .tabs-home input[type="radio"]:checked + label {
+	background-color: #ccc;
+  }
+  
+  .tab-content-home {
+	padding: 20px;
+	border: 1px solid #ccc;
+  }
+  
+  .tab-panel-home {
+	display: none;
+  }
+  
+  #tab1-home:checked ~ .tab-content-home #content1-home,
+  #tab2-home:checked ~ .tab-content-home #content2-home {
+	display: block;
+  }
+  
+  
+  
+  .tabs-move {
+	width: 400px;
+	margin: 20px auto;
+  }
+  
+  .tabs-move input[type="radio"] {
+	display: none;
+  }
+  
+  .tabs-move label {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #f0f0f0;
+	cursor: pointer;
+	transition: background-color 0.3s;
+  }
+  
+  .tabs-move label:hover {
+	background-color: #ccc;
+  }
+  
+  .tabs-move input[type="radio"]:checked + label {
+	background-color: #ccc;
+  }
+  
+  .tab-content-move {
+	padding: 20px;
+	border: 1px solid #ccc;
+  }
+  
+  .tab-panel-move {
+	display: none;
+  }
+  
+  #tab1-move:checked ~ .tab-content-move #content1-move,
+  #tab2-move:checked ~ .tab-content-move #content2-move {
+	display: block;
+  }
 
 /*Prislistan slutar*/
 
