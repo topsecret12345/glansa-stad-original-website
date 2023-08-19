@@ -451,7 +451,7 @@ a{
             background-color: white;
             /* background-color: white; */
             min-height: 100vh;
-	  scroll-margin: 50px;
+	  scroll-margin: 100px;
 
         }
         .pricelist-flex{
