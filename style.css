@@ -410,13 +410,13 @@ a{
             background-image: url(test1.jpg);
         }   
         .img1{
-            background-image: url(https://source.unsplash.com/g51F6-WYzyU);
+            background-image: url(AdobeStock_597134421.jpeg);
         }
         .img2{
-            background-image: url(https://source.unsplash.com/-THN6q3885I);
+            background-image: url(AdobeStock_293168706.jpeg);
         }
         .img3{
-            background-image: url(https://source.unsplash.com/ho-p7qLBewk);
+            background-image: url(AdobeStock_269767122.jpeg);
         }
 
         @media (max-width: 740px){
