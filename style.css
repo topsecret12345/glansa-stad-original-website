@@ -447,12 +447,11 @@ a{
 /*tjänster slutar*/	
 
 /*Prislistan börjar*/
-  .pricelist{
+/*   .pricelist{
             display: flex;
             justify-content: center;
             align-items: center;
             background-color: white;
-            /* background-color: white; */
             min-height: 100vh;
 	  
 
@@ -462,7 +461,6 @@ a{
             flex-direction: column;
 
             background-color: white;
-            /* background-color: white; */
             padding: 20px 0;
             width: 100%;
 	    
@@ -503,14 +501,6 @@ table {
 	border: black 1px solid!important;
 	background-color: whitesmoke;
     height: ;
-  }
-  .tab-content-home{
-    /* height: 325px; */
-    /* min-height: calc(282px - 40px); */
-  }
-  .tab-content-move{
-    /* height: 325px; */
-    /* min-height: calc(282px - 40px); */
   }
   .tabs {
 	width: 400px;
@@ -632,7 +622,47 @@ table {
   #tab1-move:checked ~ .tab-content-move #content1-move,
   #tab2-move:checked ~ .tab-content-move #content2-move {
 	display: block;
-  }
+  } */
+table{
+	width: min(500px, 90%);
+	height: fit-content;
+	/* padding: 10px; */
+	border-spacing: 0;
+	border-collapse: separate;
+	background-color: white;
+	border: solid 1px black;
+	margin: 0 auto;
+}
+th:nth-child(1),th:nth-child(2){
+	background: black;
+	color: white;
+}
+
+tr{
+	font-weight: 600;
+}
+th, td{
+	padding: 7px;
+}
+tr td:nth-child(1){
+	text-align: center;
+}
+tr td:nth-child(2){
+	text-align: center;
+}
+h3{
+	text-align: center;
+}
+
+table, thead:first-child{
+border-radius: 20px;
+}
+th:nth-child(1){
+	border-radius: 20px 0 0 0;
+}
+th:nth-child(2){
+	border-radius: 0 20px 0 0;
+}
 
 /*Prislistan slutar*/
 
