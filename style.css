@@ -874,7 +874,8 @@ th:nth-child(2){
 	  width: 100%;
 
 	  box-sizing: border-box;
-	  height: 100vh;
+/* 	  height: 100vh; */
+	  height: fit-content;
 	  /* background-color: steelblue; */
 
 	  position: relative;
@@ -883,11 +884,13 @@ th:nth-child(2){
 
   
 .intro2{
-    height: 110vh;
+    height: 60vh;
     width: 100%;
     text-align: center;
     position: relative;
-    font-size: 3rem;
+/*     font-size: 3rem; */
+	font-size: 2rem;
+	font-weight: bold;
     color: black;
 	z-index: -1;
 	/* background-image: url('img/test.png');
