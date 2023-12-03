@@ -218,7 +218,8 @@ a{
 	/* background-color: steelblue; */
 	
 	
-	background-image: url('img/intro2.jpg');
+/* 	background-image: url('img/intro2.jpg'); */
+	background-image: url('img/snowbackground.jpeg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position:0%;
@@ -900,7 +901,8 @@ th:nth-child(2){
 	background-position: 0%;
 	background-position-x: center;
 	background-size: contain; */
-	background-image: url('img/intro2.jpg');
+/* 	background-image: url('img/intro2.jpg'); */
+	background-image: url('img/snowbackground.jpeg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position:0%;
